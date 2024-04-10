@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    /* align-items: center; */
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+h1{
+    float: left;
+    background: plum;
+    margin: 30px 225px;
+    text-indent: -300px;
+    color: #fff;
+
+}
+nav{
+    height: 90px;
+    width: 100%;
+    background: rgb(166, 170, 240);
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    background: rgb(166, 170, 240);
+
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 40px;  
+    background: rgb(166, 170, 240);
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform:uppercase ;
+    background: rgb(166, 170, 240);
+
+}
+a.active,a:hover{
+    background:rgb(96, 103, 241);
+    transition: .5s;
+}
+.in-img{
+    
+    float: left;
+    height: 350px;
+    width: 700px;
+    
+    margin: 70px 30px;
+
+}
+.in-img:hover{
+    opacity: 0.75;
+}
+
+#welcome{
+    padding-top: 200px;
+    padding-right: 150px; 
+    float: right;
+}
+#va{
+    padding-top: 20px;
+    padding-right: 20px; 
+    float: right;
+}
+.it{
+    padding-top: 500px;
+    h2{
+        padding-left: 50px;
+    }
+    p{
+        padding: 40px 70px;
+        text-align: left;
+        text-align: justify;
+    }
+}
+.req{
+    padding-left: 45px;
+}
+.req h3{
+    padding-right: 200px;
+    padding-top: 20px;
+}
+.req ul{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.chennai{
+    margin:50px;
+    margin-right: 700px;
+    width: 500px;
+    float: left;
+    position: relative;
+    
+    
+}
+.chennai img{
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.text-block{
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;;
+    background: rgb(0,0,0,0.5);
+    width: 100%;
+    padding: 20px;
+
+}
+.bangalore{
+    margin:50px;
+
+    /* margin-right: 700px; */
+    width: 500px;
+    float: right;
+    position: relative;
+    
+    
+}
+.bangalore img{
+    width: 100%;
+    /* float: left; */
+
+
+}
+
+.text-block1{
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    background: rgb(0,0,0,0.5);
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+
+}
+h4{
+    color: #fff;
+}
+img:hover{
+    opacity: 0.80;
+}
